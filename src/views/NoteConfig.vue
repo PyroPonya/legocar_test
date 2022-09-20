@@ -1,9 +1,5 @@
 <template>
   <div class="note-container">
-    {{ props }}
-    {{ currentNote }}
-    <br />
-    {{ noteInEdit }}
     <div class="input-container">
       <label for="title">Title</label>
       <input v-model="noteInEdit.title" type="text" id="title" />
